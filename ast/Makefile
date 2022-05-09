@@ -13,18 +13,22 @@ include $(TOPDIR)/Rules.makefile
 
 ### Dependencies ###
 dump_tree.o: dump_tree.cpp \
- /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/array.h
-parse.o: parse.cpp /home/d3phys/Code/assert-language/include/iommap.h \
- /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/ast/keyword.h \
- /home/d3phys/Code/assert-language/include/ast/../../AST ../AST
-tree.o: tree.cpp /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/stack.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/ast/keyword.h \
- /home/d3phys/Code/assert-language/include/ast/../../AST ../AST
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h
+parse.o: parse.cpp \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/iommap.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/../../AST \
+ ../AST
+tree.o: tree.cpp \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/stack.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/../../AST \
+ ../AST

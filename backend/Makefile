@@ -12,24 +12,28 @@ backend.o: $(OBJS) subdirs
 include $(TOPDIR)/Rules.makefile
 
 ### Dependencies ###
-compiler.o: compiler.cpp /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/iommap.h \
- /home/d3phys/Code/assert-language/include/stack.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/ast/keyword.h \
- /home/d3phys/Code/assert-language/include/ast/../../AST \
- /home/d3phys/Code/assert-language/include/backend/scope_table.h
-main.o: main.cpp /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/iommap.h \
- /home/d3phys/Code/assert-language/include/stack.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/ast/keyword.h \
- /home/d3phys/Code/assert-language/include/ast/../../AST \
- /home/d3phys/Code/assert-language/include/backend/scope_table.h
+compiler.o: compiler.cpp \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/iommap.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/stack.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/../../AST \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/backend/scope_table.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/backend/backend.h
+main.o: main.cpp \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/iommap.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/stack.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/../../AST \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/backend/scope_table.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/backend/backend.h
 scope_table.o: scope_table.cpp \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/backend/scope_table.h
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/backend/scope_table.h

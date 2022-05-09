@@ -13,27 +13,31 @@ include $(TOPDIR)/Rules.makefile
 
 ### Dependencies ###
 ident.o: ident.cpp \
- /home/d3phys/Code/assert-language/include/frontend/keyword.h \
- /home/d3phys/Code/assert-language/include/../KEYWORDS ../KEYWORDS
-lexer.o: lexer.cpp /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/list.h \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/frontend/token.h \
- /home/d3phys/Code/assert-language/include/frontend/keyword.h \
- /home/d3phys/Code/assert-language/include/../KEYWORDS ../KEYWORDS
-main.o: main.cpp /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/iommap.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/frontend/token.h \
- /home/d3phys/Code/assert-language/include/frontend/compile.h
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/frontend/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/../KEYWORDS \
+ ../KEYWORDS
+lexer.o: lexer.cpp \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/list.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/frontend/token.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/frontend/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/../KEYWORDS \
+ ../KEYWORDS
+main.o: main.cpp \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/iommap.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/frontend/token.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/frontend/compile.h
 recursive_descent.o: recursive_descent.cpp \
- /home/d3phys/Code/assert-language/include/logs.h \
- /home/d3phys/Code/assert-language/include/ast/tree.h \
- /home/d3phys/Code/assert-language/include/array.h \
- /home/d3phys/Code/assert-language/include/ast/keyword.h \
- /home/d3phys/Code/assert-language/include/ast/../../AST \
- /home/d3phys/Code/assert-language/include/frontend/keyword.h \
- /home/d3phys/Code/assert-language/include/../KEYWORDS \
- /home/d3phys/Code/assert-language/include/frontend/token.h
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/logs.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/tree.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/array.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/ast/../../AST \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/frontend/keyword.h \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/../KEYWORDS \
+ /home/d3phys/Code/assert-lang-old/assert-lang/include/frontend/token.h
